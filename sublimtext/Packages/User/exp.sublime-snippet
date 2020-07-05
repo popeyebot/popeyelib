@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+exports.login = async (param) => {
+}
+]]>
+	</content>
+	<tabTrigger>exp</tabTrigger>
+</snippet>
