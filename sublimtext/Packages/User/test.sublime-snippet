@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[std::cout << ${1:this} << std::endl; ]]></content>
-	<tabTrigger>locc</tabTrigger>
-</snippet>
-
-
-
-

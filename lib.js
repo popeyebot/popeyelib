@@ -25,6 +25,17 @@ const makeId = (length) => {
    return result;
 }
 
+const rNumber = (min, max) => {
+   return (Math.floor(Math.random() * max) + min)
+}
+
+var oc = (str, target) => {
+   return ((str.match(new RegExp(target, "gi")) || []).length)
+}
+
+
 exports.shuffleArray = shuffleArray;
 exports.wait = wait;
 exports.makeId = makeId;
+exports.rNumber = rNumber;
+exports.oc = oc;

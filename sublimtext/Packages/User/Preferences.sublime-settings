@@ -1,9 +1,0 @@
-{
-	"color_scheme": "Packages/Theme - Argonaut/Argonaut.tmTheme",
-	"font_size": 12,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Argonaut.sublime-theme"
-}
