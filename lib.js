@@ -33,9 +33,21 @@ var oc = (str, target) => {
    return ((str.match(new RegExp(target, "gi")) || []).length)
 }
 
+function uniq(arr) {
+   var obj = {};
+   var ret_arr = [];
+   for (var i = 0; i < arr.length; i++) {
+      obj[arr[i]] = true;
+   }
+   for (var key in obj) {
+      ret_arr.push(key);
+   }
+   return ret_arr;
+}
 
 exports.shuffleArray = shuffleArray;
 exports.wait = wait;
 exports.makeId = makeId;
 exports.rNumber = rNumber;
 exports.oc = oc;
+exports.uniq = uniq;
