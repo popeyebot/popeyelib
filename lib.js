@@ -33,7 +33,7 @@ var oc = (str, target) => {
    return ((str.match(new RegExp(target, "gi")) || []).length)
 }
 
-function uniq(arr) {
+var uniq = (arr) => {
    var obj = {};
    var ret_arr = [];
    for (var i = 0; i < arr.length; i++) {
