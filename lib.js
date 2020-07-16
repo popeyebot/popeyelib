@@ -1,4 +1,4 @@
-const shuffleArray = (a) => {
+var shuffleArray = (a) => {
    var j,
       x,
       i;
@@ -11,11 +11,11 @@ const shuffleArray = (a) => {
    return a;
 }
 
-const wait = (ms) => {
+var wait = (ms) => {
    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const makeId = (length) => {
+var makeId = (length) => {
    var result = '';
    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
    var charactersLength = characters.length;
@@ -25,7 +25,7 @@ const makeId = (length) => {
    return result;
 }
 
-const rNumber = (min, max) => {
+var rNumber = (min, max) => {
    return (Math.floor(Math.random() * max) + min)
 }
 

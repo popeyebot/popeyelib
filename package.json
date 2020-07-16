@@ -1,19 +1,19 @@
 {
-  "name": "popeyelib",
-  "version": "1.0.0",
-  "main": "lib.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/popeyebot/popeyelib.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/popeyebot/popeyelib/issues"
-  },
-  "homepage": "https://github.com/popeyebot/popeyelib#readme",
-  "description": ""
+   "name": "popeyelib",
+   "version": "1.0.1",
+   "main": "lib.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/popeyebot/popeyelib.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/popeyebot/popeyelib/issues"
+   },
+   "homepage": "https://github.com/popeyebot/popeyelib#readme",
+   "description": ""
 }
